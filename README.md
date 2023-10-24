@@ -20,6 +20,8 @@ Copy the `startup.sh` to any where you like. I put it in `/opt/adguard-dnsproxy/
 
 Mack sure it executable.
 
+> If you want to use another path, please change the `dnsproxy.plist` accordingly.
+
 ### Launchd(8) Plist
 
 Copy the `dnsproxy.plist` to `/Library/LaunchDaemons/dnsproxy.plist`. Then load it into system domain.
